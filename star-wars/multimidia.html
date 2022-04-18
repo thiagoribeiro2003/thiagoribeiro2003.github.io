@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídia - Responsivando</title> <!-- nunca usar mesmo title (titulo) para paginas diferentes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--descrição resumida do site usa a tag abaixo-->
+    <meta name="description" content="aprenda design responsivo.">
+
+    <!-- paralvras-chave da página-->
+    <meta name="keywords" content="aprenda, video, design, responsivo,">
+
+    <!-- inserindo favicon Incone que aparece no endereço da pagina, e emoutro locais como hitortico de navegação-->
+
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <!-- link para o arquivo css externo, somente com isso conseguimos trabalhar com o css e ele vai mudando de acordo com nosso condigo que esta aqui-->
+    <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+<body>
+    <a class="whatsapp-link" href="https://web.whatsApp.com/send?phone=55987654321" target="_blank">    
+        <i class="fa fa-whatsapp"></i>
+    </a>
+    <!-- o cabeçalho contem apenas o munu do site, pois entendemos que esta parte não é o principal da pagina, não é o conteúdo em si-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Página Inicial">início</a></li>
+                <li><a href="galeria.html" title="galeria de trabalhos">galeria</a></li>
+                <li><a href="multimidia.html" title="conteúdo multimidia">multimídia</a></li>
+                <li><a href="contato.html" title="contato">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Conteúdo Multimídia</h1>
+     
+
+    <!-- vídeo do youtuve-->
+    <h2>Star Wars: The Rise of Skywalker | Final Trailer</h2>
+        
+ <iframe width="760" height="415" src="https://www.youtube.com/embed/8Qn_spdM5Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--audio local-->
+    <h2>Áudio</h2>
+    <audio src="audio/baby-bieber.mp3" controls autoplay>
+
+    </audio>
+<!-- também é necessário dicionar os sources para cada navegador, e adicionar mensagem dizendo que o navegador não suporta audio, caso não seja possível a reprodução-->
+    </main>
+
+    <!-- rodapé do site-->
+    <footer>
+        <p>Layout realizado utilizando Design Responsivo</p>
+    </footer>
+</body>
+</html>

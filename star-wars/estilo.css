@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: gainsboro;
+
+        
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+
+nav {
+    background-color: #000;
+    line-height: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize; /* transforma o texto em maiúsculas, minúsculas ou apenas a primeira letra maiúscula*/
+    padding: 10px 20px;
+}
+
+nav a:hover, nav a:active {
+    color: #e25c5e;
+    text-shadow: black 3px 3px 8px; /* sombra no texto - valores na ordem: cor, desloc.horizontal, desloc. vertical, suavização da sombra*/
+}
+
+.col1, .col2, .col3 {
+    margin-bottom: 50px;
+}
+
+footer {
+    color: #FFB5B6;
+    background-color: #000;
+    text-align: center;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/*breakpoints - ponto de quebra de layout*/
+
+/*CSS para telas acima de 760px*/
+@media screen and (min-width: 760px) {
+ 
+    .colunas {
+        display: flex;
+        flex-wrap: wrap; /*determina quebra de conteúdo flexbox */
+        justify-content: space-between;
+    }
+
+    .col1, .col2, .col3 {
+        width: 32.5%;
+        margin-bottom: 10px;
+    }
+
+  
+
+
+}
