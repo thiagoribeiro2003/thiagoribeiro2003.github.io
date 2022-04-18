@@ -1,0 +1,138 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+}
+
+.adulto body {
+    background-color: aliceblue;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    text-align:center ;
+    margin: 30px;
+    font-family: sans-serif;
+}
+
+.nome {
+    margin-bottom: 2px;
+    font-family: sans-serif; 
+}
+
+h2 {
+   text-align: center;
+   font-family: sans-serif; 
+}
+
+.colunas {
+    margin: 20px;
+}
+
+.colunas {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 25px;
+    text-align:center ;
+}
+
+nav {
+    background-color: rgb(53, 238, 53);
+    line-height: 40px;
+    font-family: sans-serif   
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 2px ; /*altura para clicar no link*/
+    
+    
+}
+
+nav a:hover, nav a:active {
+    color: #345;
+    text-shadow: black 3px 3px 8px;
+}
+
+.infancia-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;                                                               
+}
+
+.adolescencia-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  
+    center;                                                                  
+}
+
+.juventude-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  
+    center;                                                                  
+}
+
+.adulto {
+    align-items:flex-start;
+    justify-content: center; 
+    background-color: aliceblue;  
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+@media screen and /*(min-width: 500px)*/ (max-width:1500px) {
+    header {
+        width: 100%;
+    }
+    
+
+    .colunas {  
+        flex-wrap: wrap; /*determina quebra de conteúdo flexbox */  
+    }
+    
+    p {
+        font-size: 22px;
+        text-align:center ;
+    }
+
+    nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 2px ; /*altura para clicar no link*/   
+          }
+
+    
+}
+
+  
+  
