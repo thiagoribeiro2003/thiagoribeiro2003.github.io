@@ -1,2 +1,2 @@
 # thiagoribeiro2003.github.io
-Meus projetos Front-End
+Alguns projetos Front-End que desenvolvi para estudo.
